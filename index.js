@@ -22,9 +22,9 @@ function factoryUserGamer() {
     for (var i = 0; i < maxCromons; i++) {
       var newCromon = new cromonStruct();
 
-      const intelligence = Math.floor(Math.random() * maxPontuation + 1);
-      const agility = Math.floor(Math.random() * maxPontuation + 1);
-      const reflection = Math.floor(Math.random() * maxPontuation + 1);
+      const intelligence = Math.floor(Math.random() * (maxPontuation / 2) + 1);
+      const agility = Math.floor(Math.random() * (maxPontuation / 2) + 1);
+      const reflection = Math.floor(Math.random() * (maxPontuation / 2) + 1);
 
       newCromon.identification = faker.name.firstName();
       newCromon.intelligence = intelligence;
