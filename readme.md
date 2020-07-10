@@ -8,9 +8,9 @@
    Inteligência Artificial 
 </h4>
 
-<center> 
- <img alt="Resultado" src=".github/result.png" width="40%" >
- </center>
+<p align="center">
+ <img alt="Resultado" src=".github/result.png" width="40%" />
+   </p>
 
 ## :computer: Contextualização
 O objetivo com o algoritmo genético é calcular a quantidade de gerações necessárias para se ter pelo menos um jogador bom na maioria dos jogos que exija um nível bom de características intelectuais, agilidade e ações rápidas. 
@@ -33,7 +33,7 @@ Para iniciar o projeto será necessário um gerenciador de pacotes como `yarn` o
 
 - Faça o clone desse repositório `git clone https://github.com/SamLucas/AlgoritimoGenetico`;
 - Em seguida faça a instalação dos pacotes usando `yarn install` por exemplo;
-- E inicie o projeto com o script start, exemplo `yarn start`.
+- E inicie o projeto com o script start, exemplo: `yarn start`.
 
 
 ## :postbox: Contato
